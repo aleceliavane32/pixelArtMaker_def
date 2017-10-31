@@ -20,6 +20,9 @@ var nombreColores = ['White', 'LightYellow',
   'DimGray', 'LightSlateGray', 'DarkSlateGray', 'Black'
 ];
 
+var  $paleta = $("#paleta");
+var  $grilla-pixeles = $("#grilla-pixeles");
+
 // Variable jQuery para guardar el elemento 'color-personalizado'
 // Es decir, el que se elige con la rueda de color.
 var $colorPersonalizado = $('#color-personalizado');
