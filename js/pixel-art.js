@@ -23,6 +23,20 @@ var nombreColores = ['White', 'LightYellow',
 var  $paleta = $("#paleta");
 var  $grilla-pixeles = $("#grilla-pixeles");
 
+function genPaleColor(){
+  for (var myHis = 0; myHis < nombreColores.length; myHis++) {
+    var $i = $(<'div/'>, {'class': 'color-paleta'});
+
+    $paleta.append($i);
+    $i.css('background-color', paleta);
+  }
+}
+function griPixel(){
+  for (var i =0; i < 1749; i++) {
+    var $and =$(<'div/'>, {'class': 'grilla-pixeles'});
+  }
+}
+
 // Variable jQuery para guardar el elemento 'color-personalizado'
 // Es decir, el que se elige con la rueda de color.
 var $colorPersonalizado = $('#color-personalizado');
