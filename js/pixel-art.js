@@ -28,7 +28,7 @@ function genPaleColor(){
     var $i = $(<'div/'>, {'class': 'color-paleta'});
 
     $paleta.append($i);
-    $i.css('background-color', paleta);
+    $i.css('background-color', myHis);
   }
 }
 function griPixel(){
@@ -37,6 +37,9 @@ function griPixel(){
   }
 }
 
+function cliClolor(){
+
+}
 // Variable jQuery para guardar el elemento 'color-personalizado'
 // Es decir, el que se elige con la rueda de color.
 var $colorPersonalizado = $('#color-personalizado');
